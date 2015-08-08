@@ -1,4 +1,4 @@
-=== bbPress - New UI ===
+=== BuddyPress - New UI ===
 Author URI: http://dk4000.com
 Contributors: daniluk4000
 Tags: bbPress, new UI, UI, Forums, daniluk4000, Forum, BuddyPress, Social, Social Network, Interface, Redesign, plugin, online, online status
