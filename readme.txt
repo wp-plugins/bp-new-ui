@@ -17,9 +17,9 @@ If you have an idea for plugin - just write me in admin@dk4000.com!
 
 Features:
 
-  Redesigned all sections of BuddyPress:
+Redesigned all sections of BuddyPress:
   
-  1. Activity tab
+1. Activity tab 
   
 2. Profile edit
   
@@ -31,7 +31,8 @@ Features:
   
 6. Groups;
   
-Dark theme (soon)
+7. Dark theme (soon)
+  
   
 
 
