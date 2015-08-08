@@ -1,0 +1,381 @@
+.bp_status_online {
+    float: left !important;
+}
+.bp_status_online.bp_is_online {
+    float: left !important;
+    font-size: 14px !important;
+    color: darkgreen !important;
+    text-transform: uppercase !important;
+}
+.bp_status_online.bp_is_not_online {
+    float: left !important;
+    font-size: 14px !important;
+    color: darkred !important;
+    text-transform: uppercase !important;
+}
+.bp_online_user .bp_is_online::before {
+    display: block !important;
+    position: relative !important;
+    height: 10px !important;
+    width: 10px !important;
+    content: "" !important;
+    background: darkgreen !important;
+    float: right !important;
+    border-radius: 50px !important;
+    margin-top: 5px !important;
+    margin-left: 5px !important;
+}
+.bp_online_user .bp_is_not_online::before {
+    display: block !important;
+    position: relative !important;
+    height: 10px !important;
+    width: 10px !important;
+    content: "" !important;
+    background: darkred !important;
+    float: right !important;
+    border-radius: 50px !important;
+    margin-top: 5px !important;
+    margin-left: 5px !important;
+}
+.bp_online_user {
+    float: right !important; 
+}
+.bp-user .bp_members h3 {
+    text-align: center !important;
+    border-bottom: 1px solid #aaa !important;
+    padding-bottom: 5px !important;
+}
+#buddypress .user-nicename {
+    font-family: "Segoe UI"  !important;
+    font-weight: 300 !important;
+}
+#buddypress span.activity {
+    padding: 5px !important;
+    background: #BE3631 !important;
+    color: #fff !important;
+}
+#buddypress div#item-header img.avatar {
+    border-radius: 3px !important;
+}
+#buddypress #object-nav.item-list-tabs li a {
+    color: #000 !important;
+}
+#buddypress #object-nav.item-list-tabs li {
+    background: #ddd !important;
+    margin-left: 1px !important;
+}
+#buddypress #object-nav.item-list-tabs li.current.selected a {
+    background: transparent !important;
+}
+#buddypress span.activity {
+    background: rgba(49, 66, 190, 0.9) none repeat scroll 0% 0% !important;
+}
+#buddypress #object-nav.item-list-tabs li.current.selected {
+    opacity: 1  !important;
+    background: #bbb !important;
+}
+#buddypress #object-nav.item-list-tabs li:hover {
+    background: #777 none repeat scroll 0% 0%  !important;
+    margin-left: 0px !important;
+    border: 1px solid #555 !important;
+    transition: background 0.5s ease 0s !important;
+    border-width: 0px 1px !important;
+    margin-right: -1px !important;
+}
+#buddypress #object-nav.item-list-tabs li {
+    transition: background 0.5s ease 0s !important;
+}
+#buddypress #object-nav.item-list-tabs li:hover a {
+    color: #fff !important;
+    transition: 0.5s color !important;
+}
+#buddypress #object-nav.item-list-tabs li a {
+    transition: 0.5s color !important;
+}
+#buddypress div.item-list-tabs ul li a span {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0% 0% !important;
+    color: rgba(255, 255, 255, 1) !important;
+    border: 0px none !important;
+    height: auto !important;
+    width: auto !important;
+    line-height: 11px !important;
+    display: inline-block !important;
+    padding: 3px 6px !important;
+    margin-top: -1px !important;
+}
+#buddypress div.item-list-tabs ul li:hover a span {
+    color: #000 !important;
+}
+#buddypress div#subnav.item-list-tabs {
+    margin-top: 1px !important;
+    background: rgb(187, 187, 187) none repeat scroll 0% 0% !important;
+}
+#buddypress div#subnav.item-list-tabs .current.selected a {
+    background: #777 !important;
+    color: #fff !important;
+    margin: 5px !important;
+}
+#buddypress div#subnav.item-list-tabs a {
+    color: rgb(0, 0, 0) !important;
+    margin: 5px !important;
+}
+#buddypress div#subnav.item-list-tabs li:hover a {
+    background: #444 none repeat scroll 0% 0%  !important;
+    color: #fff !important;
+    transition: color 0.5s, background 0.5s !important;
+}
+#buddypress div#subnav.item-list-tabs li a {
+    transition: color 0.5s, background 0.5s !important;
+}
+#activity-filter-select {
+    margin: 5px  !important;
+    background: #ddd !important;
+    border: 1px solid #999 !important;
+}
+#buddypress div.item-list-tabs ul li.current a span, #buddypress div.item-list-tabs ul li.selected a span {
+    background: #111 !important;
+    color: #fff !important;
+}
+#activity-filter-select label {
+    padding-left: 5px !important;
+    margin-bottom: 1px !important;
+}
+#activity-filter-select select {
+    padding-right: 5px !important;
+    margin-top: -1px !important;
+    margin-bottom: -2px !important;
+    position: relative !important;
+    margin-right: -1px !important;
+}
+#activity-personal-li, #activity-personal-li a {
+    margin-left: 0px  !important;
+    border-left: 0px  !important;
+}
+#buddypress ul.item-list li {
+    border-bottom: 1px solid rgb(234, 234, 234) !important;
+    padding: 15px 0px !important;
+    margin: 0px !important;
+    position: relative !important;
+    list-style: outside none none !important;
+    background: rgba(235, 235, 235, 0.8) none repeat scroll 0% 0% !important;
+    border-left: 2px solid #aaa !important;
+    margin-bottom: 2px !important;
+    border-bottom: 0px !important;
+    padding: 15px !important;
+}
+.activity-list li.bbp_topic_create .activity-content .activity-inner, .activity-list li.bbp_reply_create .activity-content .activity-inner {
+    border-left: 2px solid #999 !important;
+}
+#buddypress .activity-list li.load-more, #buddypress .activity-list li.load-newest {
+    border-left: 2px solid #aaa !important;
+    border-right: 2px solid #aaa !important;
+    background: #ddd !important;
+}
+#buddypress #activity-stream .activity-inner p {
+    margin: 5px 0px !important;
+    background: rgb(245,245,245) !important;
+    padding: 5px !important;
+}
+#buddypress div.profile h4 {
+    margin-bottom: 5px !important;
+    margin-top: 15px !important;
+    text-align: center !important;
+}
+#buddypress div.profile h4 {
+    margin-bottom: 15px !important;
+    margin-top: 15px !important;
+    text-align: center !important;
+    border-bottom: 1px solid #aaa !important;
+    padding-bottom: 5px !important;
+}
+#buddypress .profile-fields tbody td.label {
+    padding-top: 11px !important;
+    padding-bottom: 11px !important;
+    border: 0px !important;
+}
+#buddypress .profile-fields tbody td.data {
+    border: 0px !important;
+    border-left: 1px solid #ddd !important;
+}
+table.profile-fields {
+    border: 1px solid #DDD !important;
+    width: 100% !important;
+    border-collapse: collapse  !important;
+    background-color: transparent !important;
+}
+#buddypress table.profile-fields .label, #buddypress table.profile-fields .data {
+background: #fff  !important;
+}
+table.profile-fields tbody tr {
+    background: #fff  !important;
+    border-bottom: 1px solid #ddd !important;
+}
+#buddypress .field-visibility-settings-notoggle {
+    padding: 5px !important;
+    width: 75% !important;
+    border: 1px solid rgb(221, 221, 221) !important;
+    background: rgb(250, 250, 250) none repeat scroll 0% 0% !important;
+    color: rgb(51, 51, 51) !important;
+    opacity: 0.5 !important;
+    border-top: 0px !important;
+}
+.visibility-toggle-link {
+    background: #006400 !important;
+    color: #fff  !important;
+    font-style: normal !important;
+    padding: 1px !important;
+}
+.field-visibility-settings-close {
+    background: #006400 none repeat scroll 0% 0% !important;
+    color: #FFF  !important;
+    padding: 2px !important;
+    margin-top: 5px !important;
+    position: relative !important;
+    display: inline-block !important;
+}
+#buddypress .field-visibility-settings input {
+    height: auto !important;
+}
+.field-visibility-text {
+    color: #000 !important;
+}
+#buddypress div.pagination {
+    text-align: center !important;
+    background: #eee !important;
+    color: #000 !important;
+    border-radius: 0px !important;
+    border: 1px solid #BEBEBE !important;
+    margin: 5px 0 !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+}
+#buddypress *, #buddypress *::before, #buddypress *::after {
+box-sizing: border-box !important;
+}
+#buddypress #subnav ul li.last.filter {
+    background: #ddd !important;
+    border: 1px solid #999 !important;
+}
+#buddypress #subnav ul li.last.filter label {
+    padding-left: 5px !important;
+    margin-bottom: -1px !important;
+}
+#buddypress #subnav ul li.last.filter select {
+    margin: -1px !important;
+}
+#buddypress div#message p, #sitewide-notice p {
+    font-weight: 400 !important;
+    margin-top: 3px !important;
+    text-decoration: none !important;
+    background-color: #F6E5B5 !important;
+    border: 1px solid #E4AC00 !important;
+    color: #333 !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+}
+#buddypress #item-meta div#latest-update {
+    background: #eee !important;
+    padding: 5px !important;
+    color: rgb(119, 119, 119) !important;
+    font-size: 15px !important;
+    border: 1px solid #ddd !important;
+}
+#buddypress #item-meta div#latest-update a {
+    padding-left: 5px !important;
+    background: #ddd !important;
+    position: relative !important;
+    float: right !important;
+    margin-left: 5px !important;
+    margin-top: -5px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    padding-right: 5px !important;
+    margin-right: -5px !important;
+}
+#buddypress .page-numbers {
+    background: none repeat scroll 0% 0% #ccc  !important;
+    color: #000  !important;
+    font-size: 15px !important;
+    padding: 5px 10px !important;
+}
+#buddypress .page-numbers.current {
+    border-radius: 0px !important;
+    box-shadow: 0px 0px !important;
+    border: 1px solid #bbb !important;
+    border-bottom: 3px solid #aaa !important;
+}
+#buddypress .page-numbers {
+    transition: border 0.5s !important;
+}
+#buddypress .page-numbers:hover {
+    border: 1px solid #666 !important;
+    border-bottom: 3px solid #333 !important;
+    transition: border 0.5s !important;
+}
+#buddypress .page-numbers {
+    margin-top: 10px !important;
+}
+#buddypress .page-numbers {
+    transition: border 0.5s !important;
+}
+#buddypress .page-numbers:hover {
+    transition: border 0.5s !important;
+}
+#buddypress .page-numbers.dots {
+    transition: 0px  !important;
+    border: 0px  !important;
+    background: transparent  !important;
+}
+#buddypress .page-numbers {
+    border: 1px solid #ddd !important;
+}
+#buddypress div#message-thread p#message-recipients {
+    margin: 10px 0px 20px !important;
+    background: #eee !important;
+    border: 1px solid #a8a8a8 !important;
+    padding: 10px !important;
+    border-width: 1px 0px !important;
+}
+#buddypress div#message-thread div.message-box {
+    background: #EEE none repeat scroll 0% 0% !important;
+    border-left: 2px solid #CCC !important;
+    box-sizing: padding-box  !important;
+    border-bottom: 1px solid rgba(0,0,0,0.1) !important;
+    margin-bottom: 1px !important;
+}
+#buddypress div#message-thread div.message-box.even {
+    background: #F5F5F5 !important;
+}
+#buddypress div#message-thread div.message-box.sent-by-me {
+    border-left-color: #E4AC00 !important;
+}
+#buddypress #search-message-form input {
+    margin: 3px !important;
+    box-shadow: 0px 0px !important;
+    border: 0px none !important;
+    border-radius: 0px !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+#buddypress .thread-from .activity {
+    padding: 0px !important;
+}
+#buddypress #object-nav.item-list-tabs li.current.selected:hover {
+    background: #777 none repeat scroll 0% 0% !important;
+}
+#buddypress div#subnav.item-list-tabs li.current.selected:hover a {
+    background: #444 none repeat scroll 0% 0% !important;
+}
+#buddypress form#whats-new-form textarea {
+    background: rgb(255, 255, 255) none repeat scroll 0% 0%;
+    border: 1px solid #ddd;
+    width: 100% !important;
+}
+#buddypress form#whats-new-form textarea:focus {
+    border-color: rgb(53, 186, 224) !important;
+    transition: border 0.5s ease 0s;
+}
+#buddypress #register-page #basic-details-section * {
+    width: 100% !important;
+    float: left;
+}
